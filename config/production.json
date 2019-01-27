@@ -1,4 +1,4 @@
 {
     "PORT": 3000,
-    "MONGODB_URI": "mongodb://msaroj:messiten10@ds213755.mlab.com:13755/stories_database"
+    "MONGODB_URI": "mongodb://admin:Hello123@ds213755.mlab.com:13755/stories_database"
 }
