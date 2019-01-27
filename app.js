@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 // Authorize routes
-// app.use(require('./helpers/checkToken'));
+app.use(require('./helpers/checkToken'));
 
 // Include all routes
 require('./helpers/routes').route(app);
