@@ -24,12 +24,12 @@ app.use(bodyParser.urlencoded({
 }));
 
 // Authorize routes
-app.use(require('./helpers/checkToken'));
+// app.use(require('./helpers/checkToken'));
 
 // Include all routes
 require('./helpers/routes').route(app);
 
-app.get('/v1/hello', function (req, res) {
+app.get('/', function (req, res) {
   res.send("hello world")
 })
 
