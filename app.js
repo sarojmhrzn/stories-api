@@ -29,10 +29,6 @@ app.use(require('./helpers/checkToken'));
 // Include all routes
 require('./helpers/routes').route(app);
 
-app.get('/story', function (req, res) {
-  res.send("hello world")
-})
-
 app.listen(port, () => {
 
   console.log(`Server is running at port ${port}`);
