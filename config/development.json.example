@@ -1,0 +1,4 @@
+{
+    "PORT": 3002,
+    "MONGODB_URI": "mongodb://admin:admin@ds115446.mlab.com:15446/loan_valuation_database"
+}
