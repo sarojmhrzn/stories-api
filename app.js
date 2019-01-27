@@ -29,7 +29,7 @@ app.use(require('./helpers/checkToken'));
 // Include all routes
 require('./helpers/routes').route(app);
 
-app.get('/', function (req, res) {
+app.get('/v1/hello', function (req, res) {
   res.send("hello world")
 })
 
